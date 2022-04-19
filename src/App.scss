@@ -1,0 +1,55 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #16a085;
+  transition: background-color .5s ease;
+  .box{
+    width: 500px;
+    max-width: 70vw;
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 2px 5px #000;
+    .quote{
+      text-align: center;
+      color: #16a085;
+      transition: color .5s ease;
+    }
+    .author{
+      text-align: end;
+      color: #16a085;
+      transition: color .5s ease;
+    }
+  }
+  .button-group{
+    display: flex;
+    justify-content: space-between;
+    a{
+      text-decoration: none;
+      padding:.7rem 1.2rem ;
+      border-radius: 7px;
+      color: white;
+      background-color: #16a085;
+      transition: background-color .5s ease;
+      &:hover{
+        opacity: .8;
+      }
+    }
+    button{
+      padding:.7rem 1.2rem ;
+      border: none;
+      cursor: pointer;
+      color: white;
+      border-radius: 7px;
+      background-color: #16a085;
+      transition: background-color .5s ease;
+      &:hover{
+        opacity: .8;
+      }
+    }
+  }
+}
+
+
+
